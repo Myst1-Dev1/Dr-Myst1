@@ -393,7 +393,7 @@ body{
 /* Noticias */
 
 .noticias{
-    padding: 100px;
+    padding: 100px 40px;
 }
 
 .subtitles{
@@ -432,8 +432,8 @@ body{
 }
 
 .noticia1 img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     margin-bottom: 10px;
 }
@@ -722,7 +722,6 @@ span{
 
     .navbar ul li a{
         margin: 1.5rem 0;
-        font-size: 2rem;
     }
 
     .fa-times{
@@ -821,6 +820,95 @@ span{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 100px 40px;
     }
+
    
+}
+
+@media (max-width:320px){
+
+    .noticias{
+        padding: 100px 40px;
+    }
+
+    .noticia1{
+        margin-left: -10px;
+    }
+
+    .noticia1 h2{
+        max-width: 200px;
+    }
+
+    .noticia1 p{
+        max-width: 200px;
+    }
+
+    .btnT{
+        margin-left: -20px;
+        width: 220px;
+    }
+
+    .data{
+       margin-left: -30px;
+    }
+
+    .contato{
+        padding: 100px 40px;
+        margin-left: -20px;
+    }
+
+    .contatoflex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subtitles2{
+        margin-left: 50px;
+    }
+
+    .contatoform input[type="text"],textarea{
+        width: 220px;
+        margin-left: 50px;
+    }
+
+    .contatoform input[type="email"]{
+        width: 220px;
+        margin-left: 50px;
+    }
+
+    .contatoform input[type="tel"]{
+        width: 220px;
+        margin-left: 50px;
+    }
+
+    .telM{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .acordo1{
+        height: 40px;
+    }
+
+    .acordo1 p{
+        margin-left: 60px;
+    }
+
+    .acordo2{
+        height: 130px;
+    }
+
+    .acordo2 p{
+        margin-left: 60px;
+    }
+
+    .btnF{
+      width: 220px;
+      margin-left: 50px;
+    }
 }
